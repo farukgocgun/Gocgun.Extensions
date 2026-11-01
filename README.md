@@ -13,3 +13,7 @@ BCL helpers. No ASP.NET Core types and no Turkey-only calendar.
 Tests are unit tests. These helpers do not cross a process or network boundary, so an integration project would not exercise a different seam.
 
 License: AGPL-3.0-only (`LICENSE`). Copyright holder exception: `LICENSE-EXCEPTION`.
+
+## Publishing to nuget.org
+
+Run `scripts/publish.sh` (or `scripts/publish.ps1` on Windows). It dispatches the manual `release.yml` workflow of each dependency first, in dependency order (Gocgun.Extensions), then of this package, waiting for each run and stopping on the first failure. Requires the GitHub CLI signed in with `gh auth login`; the `nuget` environment and the nuget.org Trusted Publishing policy must exist in each repository.
