@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Gocgun.Extensions</RootNamespace>
+    <IsPackable>true</IsPackable>
+    <PackageId>Gocgun.Extensions</PackageId>
+    <Description>BCL helpers for text, dates, streams, and claims. No HTTP types.</Description>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+</Project>
