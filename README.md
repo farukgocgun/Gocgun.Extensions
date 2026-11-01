@@ -12,7 +12,7 @@ BCL helpers. No ASP.NET Core types and no Turkey-only calendar.
 
 Tests are unit tests. These helpers do not cross a process or network boundary, so an integration project would not exercise a different seam.
 
-License: AGPL-3.0-only (`LICENSE`). Copyright holder exception: `LICENSE-EXCEPTION`.
+License: MIT (`LICENSE`).
 
 ## Publishing to nuget.org
 
